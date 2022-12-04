@@ -1,0 +1,15 @@
+/Users/marlonfalcon/Study/c#/apirest/apirest/bin/Debug/net7.0/apirest
+/Users/marlonfalcon/Study/c#/apirest/apirest/bin/Debug/net7.0/apirest.deps.json
+/Users/marlonfalcon/Study/c#/apirest/apirest/bin/Debug/net7.0/apirest.runtimeconfig.json
+/Users/marlonfalcon/Study/c#/apirest/apirest/bin/Debug/net7.0/apirest.dll
+/Users/marlonfalcon/Study/c#/apirest/apirest/bin/Debug/net7.0/apirest.pdb
+/Users/marlonfalcon/Study/c#/apirest/apirest/obj/Debug/net7.0/apirest.csproj.AssemblyReference.cache
+/Users/marlonfalcon/Study/c#/apirest/apirest/obj/Debug/net7.0/apirest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marlonfalcon/Study/c#/apirest/apirest/obj/Debug/net7.0/apirest.AssemblyInfoInputs.cache
+/Users/marlonfalcon/Study/c#/apirest/apirest/obj/Debug/net7.0/apirest.AssemblyInfo.cs
+/Users/marlonfalcon/Study/c#/apirest/apirest/obj/Debug/net7.0/apirest.csproj.CoreCompileInputs.cache
+/Users/marlonfalcon/Study/c#/apirest/apirest/obj/Debug/net7.0/apirest.dll
+/Users/marlonfalcon/Study/c#/apirest/apirest/obj/Debug/net7.0/refint/apirest.dll
+/Users/marlonfalcon/Study/c#/apirest/apirest/obj/Debug/net7.0/apirest.pdb
+/Users/marlonfalcon/Study/c#/apirest/apirest/obj/Debug/net7.0/apirest.genruntimeconfig.cache
+/Users/marlonfalcon/Study/c#/apirest/apirest/obj/Debug/net7.0/ref/apirest.dll
