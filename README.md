@@ -1,4 +1,4 @@
-# apirest
+# ApiRest with RestSharp and Newtonsoft
 
 ```c#
 using System.Net;
