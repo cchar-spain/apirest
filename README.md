@@ -1,6 +1,20 @@
 # ApiRest with RestSharp and Newtonsoft
 
 ```c#
+var client = new RestClient("http://localhost:8069/api/create_fingerprint/13310091Z/1/x1234567890");
+client.Timeout = -1;
+var request = new RestRequest(Method.POST);
+request.AddHeader("Content-Type", "text/plain");
+request.AddHeader("Cookie", "session_id=dc0634779f7322409f148acaa5aa1e29fbc7d8b0");
+var body = @"{" + "\n" +
+@"    ""fingerprint"" : ""skjajsasnkanskjaskjnjkjkkj""" + "\n" +
+@"}";
+request.AddParameter("text/plain", body,  ParameterType.RequestBody);
+IRestResponse response = client.Execute(request);
+Console.WriteLine(response.Content);
+```
+
+```c#
 using System.Net;
 using RestSharp;
 using Newtonsoft.Json;
