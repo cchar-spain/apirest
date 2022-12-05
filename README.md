@@ -1,6 +1,6 @@
 # apirest
 
-```
+```c#
 using System.Net;
 using RestSharp;
 using Newtonsoft.Json;
