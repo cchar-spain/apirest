@@ -13,3 +13,6 @@
 /Users/marlonfalcon/Study/c#/apirest/apirest/obj/Debug/net7.0/apirest.pdb
 /Users/marlonfalcon/Study/c#/apirest/apirest/obj/Debug/net7.0/apirest.genruntimeconfig.cache
 /Users/marlonfalcon/Study/c#/apirest/apirest/obj/Debug/net7.0/ref/apirest.dll
+/Users/marlonfalcon/Study/c#/apirest/apirest/bin/Debug/net7.0/RestSharp.dll
+/Users/marlonfalcon/Study/c#/apirest/apirest/obj/Debug/net7.0/apirest.csproj.CopyComplete
+/Users/marlonfalcon/Study/c#/apirest/apirest/bin/Debug/net7.0/Newtonsoft.Json.dll

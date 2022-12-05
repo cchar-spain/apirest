@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "VGk3Uw1FWa8ZoImqNexdr5WEGlyyY5sF4DeCPaMOKZL8BRVLD0xb3dDwM8WOEeKqCIFalYd3V0IEwLAW1DBqLQ==",
+  "dgSpecHash": "Rpd+p3eIFxjWBtQXJmo0ReKKWky2QWU90WQPivkXArfUEr+03wdTH9eMXqNI4Util+EedRfoAn/nSlXa776FEw==",
   "success": true,
   "projectFilePath": "/Users/marlonfalcon/Study/c#/apirest/apirest/apirest.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/marlonfalcon/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512",
+    "/Users/marlonfalcon/.nuget/packages/restsharp/108.0.3/restsharp.108.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
