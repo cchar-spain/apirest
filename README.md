@@ -6,6 +6,7 @@ using RestSharp;
 using Newtonsoft.Json;
 
 // "Project" -> "Manage NuGet packages" -> "Search for "newtonsoft json". -> click "install".
+// "Project" -> "Manage NuGet packages" -> "Search for "RestSharp". -> click "install".
 
 
 var _vat = "00102815511";
