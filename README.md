@@ -20,7 +20,6 @@ using RestSharp;
 using Newtonsoft.Json;
 
 // "Project" -> "Manage NuGet packages" -> "Search for "newtonsoft json". -> click "install".
-// "Project" -> "Manage NuGet packages" -> "Search for "RestSharp". -> click "install".
 
 
 var _vat = "00102815511";
@@ -55,10 +54,16 @@ else
  {
     Console.WriteLine("create_fingerprint");
     var _huella = "NuevaHuella";
-    var _id = 7;
-    Uri baseUrl = new Uri("http://master.odooerp.online/api/create_fingerprint/" + _vat + "/" + _id + "/" + _huella + "/"  + _token);
+    var _id = 10;
+    Uri baseUrl = new Uri("http://master.odooerp.online/api/create_fingerprint/" + _vat + "/" + _id + "/" + _token);
     var client = new RestClient(baseUrl);
     var request = new RestRequest();
+    var body = @"{" + "\n" +
+               @"    ""fingerprint"" : " +_huella + "" + "\n" +
+               @"}";
+
+    request.AddParameter("text/plain", body, ParameterType.RequestBody);
+
     var response = await client.PostAsync(request);
 
     if (response.StatusCode == HttpStatusCode.OK)
@@ -77,8 +82,5 @@ else
         }
     }
 }
-
-
-
 Console.ReadLine();
 ```
